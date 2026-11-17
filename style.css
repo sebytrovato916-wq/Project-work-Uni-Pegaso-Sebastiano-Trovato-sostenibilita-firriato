@@ -126,7 +126,7 @@ body{
 }
 
 #chi-siamo img {
-    height: 280px;
+    aspect-ratio: 3/2;
     object-fit: cover;
 }
 
@@ -207,7 +207,7 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .certificazioni-titolo,
-.obiettivi_titolo {
+.obiettivi-titolo {
     font-size: 2.2rem;
     font-family: var(--font-titoli);
     color: var(--text-color);
@@ -232,17 +232,17 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 /*Obiettivi dell'azienda*/
 
-.obiettivo_icona {
+.obiettivo-icona {
     width: 40px;
     height: 40px;
     background-color:var(--text-sost-color);
 }
 
-.obiettivo_sottotitolo {
+.obiettivo-sottotitolo {
     font-size: 1rem;
     color:var(--text-sost-color);
 }
-.obiettivo_testo {
+.obiettivo-testo {
     font-size: 0.90rem;
     font-weight: 500;
 }
