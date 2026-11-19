@@ -206,8 +206,8 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
     margin-bottom: 0.5rem;
 }
 
-.certificazioni-titolo,
-.obiettivi-titolo {
+.certificazioni-title,
+.obiettivi-title {
     font-size: 2.2rem;
     font-family: var(--font-titoli);
     color: var(--text-color);
