@@ -130,7 +130,7 @@ body{
     object-fit: cover;
 }
 
-.numero-produzione{
+.production-number{
     font-family: var(--font-stats);
     font-size: 1.4rem;
     font-weight: 500;
@@ -214,7 +214,7 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 /*Riquadri delle certificazioni*/
-#sostenibilita .certificazioni-lista .badge {
+#sostenibilita .certificazioni-list .badge {
    background-color: #F3F8F1;
     border: 1px solid #3F5A3C;
     color: var(--text-sost-color);
@@ -224,7 +224,7 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
 }
 
-#sostenibilita .certificazioni-lista .badge:hover {
+#sostenibilita .certificazioni-list .badge:hover {
     background-color:var(--text-sost-color);
     color: var(--primary-color);
     text-decoration: none;
@@ -232,17 +232,17 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
 
 /*Obiettivi dell'azienda*/
 
-.obiettivo-icona {
+.obiettivo-icon {
     width: 40px;
     height: 40px;
     background-color:var(--text-sost-color);
 }
 
-.obiettivo-sottotitolo {
+.obiettivo-sub {
     font-size: 1rem;
     color:var(--text-sost-color);
 }
-.obiettivo-testo {
+.obiettivo-description {
     font-size: 0.90rem;
     font-weight: 500;
 }
@@ -311,8 +311,8 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
         display: block;
     }
     
-    .numero-produzione,
-    .numero-produzione + span{
+    .production-number,
+    .production-number + span{
         text-align: center;
         display: block;
         margin-bottom: auto;
